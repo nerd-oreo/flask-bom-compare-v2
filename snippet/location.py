@@ -42,6 +42,3 @@ def designator_to_list(designators):
         else:
             res.append(temp[i])
     return res
-
-print(designator_to_list('R1,R2,R3,R6-9'))
-print(designator_to_list('RB5,RB7,RB9,RB10-19,RB21,RB22,RB24-RB26'))
